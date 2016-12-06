@@ -1,87 +1,54 @@
 <!DOCTYPE html>
 <html>
-	<style>	
-		body {
-			text-align: center;
-			background: url("http://kinesiology.rice.edu/uploadedImages/sc_rice.jpg");
-			background-size: cover;
-			background-position: center; 
-			background-color: white;
-			font-family: Helvetica;
-		}
-		h1 {
-			text-align: center;
-			margin-bottom: 0px;
-			color: #FF4500;
-			font-family: 
-		} 
-		h4 {
-			text-align: center;
-			margin-top: 0px;
-			color: #FF4500;
-		}
-		nav {
-			color: black;
-			font-size: 22px;
-		}
-		input {
-			border: 5px;
-			padding: 10px;
-			font-size: 16px;
-		}
-		input[type="submit"] {
-			background: #D3D3D3;
-			color: #FF4500;
-			font-size: 90%;
-		}
-		li {
-			display: inline-table;
-			padding
-		}
-		.bottomnav {
-			padding: 10px;
-			background: rgba(255,69,0,0.5);
-		}
-
-</style>
+	<head>
+		<title>Offcampus Students</title>
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="main.css">
+	
+	</head>
 
 	<body>
-		<title>Offcampus Students</title>	
+		<div class="container">		
 	
+	<div class="vcenter">
 		<h1>offcampus</h1>
 		<h4>Sort out all of your extra university needs...</h4>
 
 		<input type="email" placeholder="Register your email...">
-		<input type="submit">
+		<button type="button" class="btn my-btn">Submit</button>
 
 		<p><img src=""/></p>
 
-		<nav>
-			<ul>
-				<strong>
-					<p><li><a href="accom.html">Accommodation</a></li></p>
-					<p><li><a href="budget.html">Budget</a></li></p>
-					<p><li><a href="books.html">Course Books</a></li></p>
-					<p><li><a href="tutor.html">Tutoring</a></li></p>
-					<p><li><a href="jobs.html">Jobs</li></p>
-					<p><li><a href="intern.html">Internships</a></li></p>
-					<p><li><a href="events.html">Events</a></li></p>
-					<p><li><a href="food.html">Food</a></li></p>
-					<p><li><a href="other.html">Other</a></li></p>
-				</strong>
-			</ul>
-		</nav>	
+		<div class="row">
+		  <p><div class="col-md-4"><a href="accom.html">Accommodation</a></div></p>
+		  <p><div class="col-md-4"><a href="budget.html">Budget</a></div></>
+		  <p><div class="col-md-4"><a href="books.html">Course Books</a></div></p>
+		</div>
 
-		<div class="bottomnav">
-			<ul>
-				<li>About</li>
-				<li>Contact</li>
-				<li>How it works</li>
-				<li>Privacy</li>
-				<li>Data</li>	
-			</ul>
-		</div>	
- 	
+		<div class="row">
+		  <div class="col-md-4"><a href="tutor.html">Tutoring</a></div>
+		  <div class="col-md-4"><a href="jobs.html">Jobs</a></div>
+		  <div class="col-md-4"><a href="intern.html">Internships</a></div>
+		</div>
+
+		<div class="row">
+		  <div class="col-md-4"><a href="events.html">Events</a></div>
+		  <div class="col-md-4"><a href="food.html">Food</a></div>
+		  <div class="col-md-4"><a href="other.html">Other</a></div>
+		</div>
+	</div>
+
+
+	<div class="row bottomnav">
+		<div class="col-md-2">About</div>
+		<div class="col-md-2">Contact</div>
+		<div class="col-md-2">How it works</div>
+		<div class="col-md-2">Privacy</div>
+		<div class="col-md-2">Data Protection</div>
+		<div class="col-md-2">offcampus</div>
+	</div>
+
+ 	</div>
 	</body>
 
 </html>

@@ -1,0 +1,67 @@
+
+body {
+	text-align: center;
+	background: url("marble.png");
+	background-repeat: no-repeat;
+	background-size: 100%; 
+	background-color: white;
+	font-family: Helvetica;
+	min-height: 100vh;
+}
+.vcenter {
+	position: absolute;
+  	top: 40%;
+  	transform: translateY(-50%);
+}
+h1 {
+	text-align: center;
+	margin-bottom: 0px;
+	color: #FF4500;
+	font-family: 
+} 
+h4 {
+	text-align: center;
+	margin-top: 0px;
+	color: #FF4500;
+}
+nav {
+	color: black;
+	font-size: 22px;
+}
+input {
+	border: 5px;
+	padding: 10px;
+	font-size: 16px;
+}
+input[type="submit"] {
+	background: #D3D3D3;
+	color: #FF4500;
+	font-size: 90%;
+}
+li {
+	display: inline-table;
+	padding
+}
+.bottomnav {
+	padding: 10px;
+	background: rgba(255,69,0,0.5);
+	position: absolute;
+	bottom: 0px;
+	left: 15px;
+	width: 100%;
+}
+.btn-warning {
+	background-color: #FF4500;
+	border-color: #EE4000;
+}
+.btn-warning .active {
+	background-color: #FF5000; 
+}
+/*.my-btn {
+  // @include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
+  @include button-variant(red, white, blue);
+}
+
+
+
+http://kinesiology.rice.edu/uploadedImages/sc_rice.jpg*/
